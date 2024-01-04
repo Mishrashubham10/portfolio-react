@@ -15,12 +15,21 @@
       justify-content: flex-end;
       padding: 1.25rem;
     }
+
+    @include tablet {
+      justify-content: flex-end;
+      padding: 1.25rem;
+    }
   }
 
   span {
     font-weight: bold;
 
     @include mobile {
+      display: none;
+    }
+
+    @include tablet {
       display: none;
     }
   }

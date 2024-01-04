@@ -16,6 +16,10 @@
       font-size: 4.25rem;
       text-align: center;
     }
+
+    @include tablet {
+      font-size: 4.25rem;
+    }
   }
 
   .mountains {
